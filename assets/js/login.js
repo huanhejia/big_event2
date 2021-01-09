@@ -53,7 +53,7 @@ $(function() {
                 if (res.status !== 1) {
                     layer.msg(res.message)
                     localStorage.setItem('token', res.token)
-                    location.href = '/index.html'
+                    location.href = 'index.html'
                 } else {
                     layer.msg(res.message)
                 }
